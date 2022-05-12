@@ -1,13 +1,13 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "cadena";
+const nuevaString = "null";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 2;
+const nuevoNum = 1;
 
 // Crea una variable booleana:
-const nuevoBool = True;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -47,7 +47,7 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  return x + y
+  return x * y
 }
 
 function divide(x, y) {
@@ -61,10 +61,10 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x === y) {
-    return "true"
+    return true
   } else {
-    return "false"
-    }
+    return false
+  }
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -79,9 +79,9 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num < 90) {
-    return "true"
+    return true
   } else {
-    return "false"
+    return false
   }
 }
 
@@ -90,9 +90,9 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num > 50) {
-    return "true"
+    return true
   } else {
-    return "false"
+    return false
   }
 }
 
@@ -107,9 +107,9 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num % 2 === 0) {
-    return "true"
+    return true
   } else {
-    return "false"
+    return false
   }
 }
 
@@ -118,9 +118,9 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num % 2 === 1) {
-    return "true"
+    return true
   } else {
-    return "false"
+    return false
   }
 }
 
@@ -171,7 +171,7 @@ function esPositivo(numero) {
   } else if (numero < 0) {
     return "Es negativo"
   } else if (numero === 0) {
-    return "false"
+    return false
   }
 }
 
